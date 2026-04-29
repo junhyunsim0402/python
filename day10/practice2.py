@@ -76,8 +76,7 @@ x = np.array([1, 2, 3])
 print(x+2)
 print(x*3)
 x = np.array([1, 4, 9])
-print(x+2)
-print(x*3)
+print(np.sqrt(x))
 
 # 문제 10: 논리 및 비교 연산 (Logic & Comparison)
 # 1. x = np.array([True, False, True]), y = np.array([False, False, True])에 대해
