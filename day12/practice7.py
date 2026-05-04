@@ -86,5 +86,7 @@ data=pd.DataFrame({
       'Values':['red','yellow','red','orange']
 })
 print(data['Fruit'].value_counts())
-data.columns=['Item','Style']
+data.columns=['Item','Style'] # 원본 수정 O
 print(data)
+# or
+data.rename(columns={'Fruit':'Item','Color':'Style'}) # 원본 수정 X
