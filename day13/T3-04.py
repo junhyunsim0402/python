@@ -39,6 +39,7 @@ plt.legend() # 범례에 항목명 표시
 category=['학생1','학생2','힉셍3','학생4']
 values=[85,92,78,90]
 values2=[88,97,74,91]
+
 # 막대 겹치지 않게 표시
 import numpy as np
 x=np.arange(len(category))
