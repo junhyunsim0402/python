@@ -32,3 +32,5 @@ df['연도']=df['출판년월'].dt.year
 df['월']=df['출판년월'].dt.month
 df.to_csv('./yes24/yes24_900.csv',index=True,encoding='utf-8')
 print(df)
+print(df['연도'])
+print(df['월'])
